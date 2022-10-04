@@ -57,7 +57,9 @@
 - [x] Auto-Leveling Configuration
   > - Added auto-leveling 3DTouch Configuration.
   > - Enabled Z probe homing with safe home.
-- [ ] Runout Sensor Configuration
+- [x] Runout Sensor Configuration
+  > - Added runout sensor configuration.
+  > - Reused Z axis endstope (replaced by Z probe homing) on X_MAX_PIN pins.
 - [ ] Dual Z Configuration
 - [ ] Others Configs
 
