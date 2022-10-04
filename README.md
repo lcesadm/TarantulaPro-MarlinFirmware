@@ -54,7 +54,9 @@
 - [x] TMC2208 Drivers Configuration
   > - Added TMC2208 V3.0 by BTT Standalone drivers configuration.
   > - Changed steppers calibration and X axis min position.
-- [ ] Auto-Leveling Configuration
+- [x] Auto-Leveling Configuration
+  > - Added auto-leveling 3DTouch Configuration.
+  > - Enabled Z probe homing with safe home.
 - [ ] Runout Sensor Configuration
 - [ ] Dual Z Configuration
 - [ ] Others Configs
