@@ -51,7 +51,9 @@
 - [x] Basic Configuration
   > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
   > - Added Status Screen configuration.
-- [ ] TMC2208 Drivers Configuration
+- [x] TMC2208 Drivers Configuration
+  > - Added TMC2208 V3.0 by BTT Standalone drivers configuration.
+  > - Changed steppers calibration and X axis min position.
 - [ ] Auto-Leveling Configuration
 - [ ] Runout Sensor Configuration
 - [ ] Dual Z Configuration
