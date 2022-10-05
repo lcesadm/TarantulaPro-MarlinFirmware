@@ -9,9 +9,9 @@
 
 ### Topics :large_blue_diamond:
 
-**:small_blue_diamond: [Tarantula Pro :spider:](#tarantula-pro-spider)**
-**:small_blue_diamond: [About :book:](#about-book)**
-**:small_blue_diamond: [Features :wrench:](#features-wrench)**
+**:small_blue_diamond: [Tarantula Pro :spider:](#tarantula-pro-spider)**  
+**:small_blue_diamond: [About :book:](#about-book)**  
+**:small_blue_diamond: [Features :wrench:](#features-wrench)**  
 **:small_blue_diamond: [Contributors :handshake:](#contributors-handshake)**
 
 ## Tarantula Pro :spider:
