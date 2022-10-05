@@ -60,7 +60,9 @@
 - [x] Runout Sensor Configuration
   > - Added runout sensor configuration.
   > - Reused Z axis endstope (replaced by Z probe homing) on X_MAX_PIN pins.
-- [ ] Dual Z Configuration
+- [x] Dual Z Configuration
+  > - Added dual z configuration without multi endstops.
+  > - Added G34 auto level z calibration.
 - [ ] Others Configs
 
 ## Contributors :handshake:
