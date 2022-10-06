@@ -65,8 +65,8 @@
   > - Added dual z configuration without multi endstops.
   > - Added G34 auto level z calibration.
 - [x] Power Loss Recovery Configuration
-  > Added power loss recovery configuration without UPS module.
-  > Added games easter egg :joystick:.
+  > - Added power loss recovery configuration without UPS module.
+  > - Added games easter egg :joystick:.
 
 ## Contributors :handshake:
 
