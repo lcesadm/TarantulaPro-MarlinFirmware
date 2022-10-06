@@ -4,7 +4,9 @@
     <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.1" target="_blank">
         <img src="https://img.shields.io/badge/marlin-2.1.1-blue?style=for-the-badge" alt="Marlin Version">
     </a>
-    <img src="https://img.shields.io/badge/status-finished-brightgreen?style=for-the-badge" alt="Status">
+    <a href="#">
+      <img src="https://img.shields.io/badge/status-finished-brightgreen?style=for-the-badge" alt="Status">
+    </a>
 </p>
 
 ### Topics :large_blue_diamond:
