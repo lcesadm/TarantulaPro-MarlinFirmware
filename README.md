@@ -4,7 +4,7 @@
     <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.1" target="_blank">
         <img src="https://img.shields.io/badge/marlin-2.1.1-blue?style=for-the-badge" alt="Marlin Version">
     </a>
-    <img src="https://img.shields.io/badge/STATUS-WORKING-orange?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/status-finished-brightgreen?style=for-the-badge" alt="Status">
 </p>
 
 ### Topics :large_blue_diamond:
@@ -52,18 +52,19 @@
   > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
   > - Added Status Screen configuration.
 - [x] TMC2208 Drivers Configuration
-  > - Added TMC2208 V3.0 by BTT Standalone drivers configuration.
-  > - Changed steppers calibration and X axis min position.
+  > - Added TMC2208 V3.0 by BTT standalone drivers configuration.
 - [x] Auto-Leveling Configuration
   > - Added auto-leveling 3DTouch Configuration.
   > - Enabled Z probe homing with safe home.
 - [x] Runout Sensor Configuration
   > - Added runout sensor configuration.
-  > - Reused Z axis endstope (replaced by Z probe homing) on X_MAX_PIN pins.
+  > - Reused Z axis endstop (replaced by Z probe homing) on `X_MAX_PIN` pins.
 - [x] Dual Z Configuration
   > - Added dual z configuration without multi endstops.
   > - Added G34 auto level z calibration.
-- [ ] Others Configs
+- [x] Power Loss Recovery Configuration
+  > Added power loss recovery configuration without UPS module.
+  > Added games easter egg :joystick:.
 
 ## Contributors :handshake:
 
