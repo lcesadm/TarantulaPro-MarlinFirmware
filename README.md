@@ -2,7 +2,7 @@
 <p align="center">
     <img src="logo.avif" alt="logo" width="400"><br>
     <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.1" target="_blank">
-        <img src="https://img.shields.io/badge/marlin-2.1.1-brightgreen?style=for-the-badge" alt="Marlin Version">
+        <img src="https://img.shields.io/badge/marlin-2.1.1-blue?style=for-the-badge" alt="Marlin Version">
     </a>
     <img src="https://img.shields.io/badge/STATUS-WORKING-orange?style=for-the-badge" alt="Status">
 </p>
