@@ -75,6 +75,6 @@
 
 <p align="center">
     <a href="./LICENSE" target="_blank">
-        <img src="https://img.shields.io/github/license/leolcm/tarantulapro-marlinfirmware?style=for-the-badge" alt="MIT LICENSE">
+        <img src="https://img.shields.io/github/license/lcesadm/tarantulapro-marlinfirmware?style=for-the-badge" alt="MIT LICENSE">
     </a>
 </p>
