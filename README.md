@@ -52,7 +52,7 @@
 
 - [x] Basic Configuration
   > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
-  > - Added Status Screen configuration.
+  > - Added Status Screen configuration and changed constants values.
 - [ ] TMC2208 Drivers Configuration
   > - Added TMC2208 V3.0 by BTT standalone drivers configuration.
 - [ ] Auto-Leveling Configuration
