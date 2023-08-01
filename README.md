@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/badge/marlin-2.1.2.1-blue?style=for-the-badge" alt="Marlin Version">
     </a>
     <a href="https://github.com/lcesadm/TarantulaPro-MarlinFirmware/tree/latest">
-      <img src="https://img.shields.io/badge/status-working-orange?style=for-the-badge" alt="Status">
+      <img src="https://img.shields.io/badge/status-finished-brightgreen?style=for-the-badge" alt="Status">
     </a>
 </p>
 
@@ -64,7 +64,7 @@
 - [x] Dual Z Configuration
   > - Added dual z configuration without multi endstops.
   > - Added G34 auto level z calibration.
-- [ ] Power Loss Recovery Configuration
+- [x] Power Loss Recovery Configuration
   > - Added power loss recovery configuration without UPS module.
   > - Added games easter egg :joystick:.
 
