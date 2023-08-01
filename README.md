@@ -1,11 +1,11 @@
 <h1 align="center">TarantulaPro-MarlinFirmware</h1>
 <p align="center">
     <img src="logo.avif" alt="logo" width="400"><br>
-    <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.1" target="_blank">
-        <img src="https://img.shields.io/badge/marlin-2.1.1-blue?style=for-the-badge" alt="Marlin Version">
+    <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.1.2.1" target="_blank">
+        <img src="https://img.shields.io/badge/marlin-2.1.2.1-blue?style=for-the-badge" alt="Marlin Version">
     </a>
-    <a href="https://github.com/LeoLCM/TarantulaPro-MarlinFirmware/tree/latest">
-      <img src="https://img.shields.io/badge/status-finished-brightgreen?style=for-the-badge" alt="Status">
+    <a href="https://github.com/lcesadm/TarantulaPro-MarlinFirmware/tree/latest">
+      <img src="https://img.shields.io/badge/status-working-orange?style=for-the-badge" alt="Status">
     </a>
 </p>
 
@@ -53,24 +53,24 @@
 - [x] Basic Configuration
   > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
   > - Added Status Screen configuration.
-- [x] TMC2208 Drivers Configuration
+- [ ] TMC2208 Drivers Configuration
   > - Added TMC2208 V3.0 by BTT standalone drivers configuration.
-- [x] Auto-Leveling Configuration
+- [ ] Auto-Leveling Configuration
   > - Added auto-leveling 3DTouch Configuration.
   > - Enabled Z probe homing with safe home.
-- [x] Runout Sensor Configuration
+- [ ] Runout Sensor Configuration
   > - Added runout sensor configuration.
   > - Reused Z axis endstop (replaced by Z probe homing) on `X_MAX_PIN` pins.
-- [x] Dual Z Configuration
+- [ ] Dual Z Configuration
   > - Added dual z configuration without multi endstops.
   > - Added G34 auto level z calibration.
-- [x] Power Loss Recovery Configuration
+- [ ] Power Loss Recovery Configuration
   > - Added power loss recovery configuration without UPS module.
   > - Added games easter egg :joystick:.
 
 ## Contributors :handshake:
 
-| [<img src="https://avatars.githubusercontent.com/u/60631170" width=115><br><sub>Leonardo Cesar</sub>](https://github.com/LeoLCM) |
+| [<img src="https://avatars.githubusercontent.com/u/60631170" width=115><br><sub>Leonardo Cesar</sub>](https://github.com/lcesadm) |
 | :---:
 
 <p align="center">
