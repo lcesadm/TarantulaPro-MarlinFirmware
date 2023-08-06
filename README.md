@@ -1,2 +1,87 @@
-# tarantulapro-config
-My configs and upgrades of my Tarantula Pro 3D printer.
+<h1 align="center">TarantulaPro-MarlinFirmware</h1>
+<p align="center">
+    <img src="logo.avif" alt="logo" width="400"><br>
+    <a href="https://github.com/MarlinFirmware/Marlin/releases/tag/2.0.9.7" target="_blank">
+        <img src="https://img.shields.io/badge/marlin-2.0.9.7 LTS-informational?style=for-the-badge" alt="Marlin Version">
+    </a>
+    <a href="https://github.com/lcesadm/TarantulaPro-MarlinFirmware/tree/latest-lts">
+      <img src="https://img.shields.io/badge/status-unfinished-critical?style=for-the-badge" alt="Status">
+    </a>
+</p>
+
+### Topics :large_blue_diamond:
+
+**:small_blue_diamond: [Tarantula Pro :spider:](#tarantula-pro-spider)**  
+**:small_blue_diamond: [About :book:](#about-book)**  
+**:small_blue_diamond: [Features :wrench:](#features-wrench)**  
+**:small_blue_diamond: [Contributors :handshake:](#contributors-handshake)**
+
+## Tarantula Pro :spider:
+
+<p align="justify">
+  I've owned this printer for a few years and lately I've been updating it with some hardware improvements, adding several features to ensure better efficiency during prints.<br>
+  I created this repository to be able to save all the changes made to the firmware based on the 3D printer hardware implementations (TMC drivers, auto-leveling, runout sensor...).
+</p>
+
+## About :book:
+
+<p align="justify">
+    This is my configs and upgrades of my Tarantula Pro 3D printer. I only added the changed <strong><a href="https://github.com/MarlinFirmware/Marlin" target="_blank">Marlin Firmware</a></strong> source code files:
+</p>
+
+- `Configuration.h`
+- `Configuration_adv.h`
+- `_Bootscreen.h`
+- `_Statusscreen.h`
+
+### Why LTS?
+
+<p align="justify">
+  In some cases, the most current firmware version has some errors for my printer, so if one of the versions has a problem, I will be using the most stable version for the moment.<br>
+  <strong>Example:</strong> In version <strong><a href="https://github.com/lcesadm/TarantulaPro-MarlinFirmware/releases/tag/2.1.2.1-configs" target="_blank">2.1.2.1</a></strong>, I had problems with the printer's extruder motor, in the middle of printing it stopped extruding and disabled the motor.
+</p>
+
+> **:warning: All settings were made for the Tarantula Pro printer with my modifications, check your printer's compatibility first.**
+
+<p align="center">
+    <a href="https://www.arduino.cc/" target="_blank">
+        <img src="https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino">
+    </a>
+    <a href="https://www.w3schools.com/cpp/" target="_blank">
+        <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+    </a>
+    <a href="https://code.visualstudio.com" target="_blank">
+        <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCode">
+    </a>
+</p>
+
+## Features :wrench:
+
+- [ ] Basic Configuration
+  > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
+  > - Added Status Screen configuration and changed constants values.
+- [ ] TMC2208 Drivers Configuration
+  > - Added TMC2208 V3.0 by BTT standalone drivers configuration.
+- [ ] Auto-Leveling Configuration
+  > - Added auto-leveling 3DTouch Configuration.
+  > - Enabled Z probe homing with safe home.
+- [ ] Runout Sensor Configuration
+  > - Added runout sensor configuration.
+  > - Reused Z axis endstop (replaced by Z probe homing) on `X_MAX_PIN` pins.
+- [ ] Dual Z Configuration
+  > - Added dual z configuration without multi endstops.
+  > - Added G34 auto level z calibration.
+- [ ] Power Loss Recovery Configuration
+  > - Added power loss recovery configuration without UPS module.
+  > - Added games easter egg :joystick:.
+
+## Contributors :handshake:
+
+| [<img src="https://avatars.githubusercontent.com/u/60631170" width=115><br><sub>Leonardo Cesar</sub>](https://github.com/lcesadm) |
+| :---:
+
+<p align="center">
+    <a href="./LICENSE" target="_blank">
+        <img src="https://img.shields.io/github/license/lcesadm/tarantulapro-marlinfirmware?style=for-the-badge" alt="MIT LICENSE">
+    </a>
+</p>
