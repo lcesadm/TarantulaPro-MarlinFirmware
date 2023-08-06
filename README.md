@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/badge/marlin-2.0.9.7 LTS-informational?style=for-the-badge" alt="Marlin Version">
     </a>
     <a href="https://github.com/lcesadm/TarantulaPro-MarlinFirmware/tree/latest-lts">
-      <img src="https://img.shields.io/badge/status-unfinished-critical?style=for-the-badge" alt="Status">
+      <img src="https://img.shields.io/badge/status-working-important?style=for-the-badge" alt="Status">
     </a>
 </p>
 
@@ -57,7 +57,7 @@
 
 ## Features :wrench:
 
-- [ ] Basic Configuration
+- [x] Basic Configuration
   > - Added default configuration using the **[examples](https://github.com/MarlinFirmware/Configurations)** provide by the Marlin Firmware.
   > - Added Status Screen configuration and changed constants values.
 - [ ] TMC2208 Drivers Configuration
